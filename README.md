@@ -14,6 +14,12 @@ The idea is use that compiled markdown to use them as a context for a chatbot, f
 - Preview compiled documentation in the app
 - Download compiled documentation as a single Markdown file
 
+## Using a deployed version in Streamlit
+
+You can use the deployed version of StreamMDCollector in Streamlit by clicking the button below:
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streammdcollector.streamlit.app/)
+
 ## Quick Start with Docker
 
 The easiest way to run StreamMDCollector is using the pre-built Docker image:
