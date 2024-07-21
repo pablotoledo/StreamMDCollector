@@ -2,6 +2,8 @@
 
 StreamMDCollector is a Streamlit-based web application that compiles Markdown files from Git repositories into a single document. It supports various Git hosting services and authentication methods, making it ideal for quick documentation gathering and review.
 
+The idea is use that compiled markdown to use them as a context for a chatbot, for example.
+
 ## Features
 
 - Clone Git repositories using HTTPS
