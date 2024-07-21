@@ -1,0 +1,66 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit-specific
+.streamlit/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Project-specific (you might want to add more based on your specific needs)
+*.md
+!README.md
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore any local configuration files
+config.ini
+settings.json
+
+# Ignore any files related to testing
+test_*
