@@ -66,7 +66,7 @@ def get_md_files(repo):
     try:
         for root, _, files in os.walk(repo.working_dir):
             for file in files:
-                if file.endswith(".md"):
+                if file.endswith(".md") or file.endswith(".mdx"):
                     relative_path = os.path.relpath(os.path.join(root, file), repo.working_dir)
                     md_files.append(relative_path)
         logging.info(f"Found {len(md_files)} Markdown files")
